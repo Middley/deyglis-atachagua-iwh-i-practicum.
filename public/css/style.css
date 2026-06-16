@@ -46,7 +46,8 @@ label, input {
     font-size: inherit;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="number"] {
     padding: .25rem;
 }
 
@@ -55,4 +56,30 @@ input[type="submit"] {
     border: none;
     padding: .375rem 1rem;
     margin-top: 10px;
+}
+
+table {
+    width: 90%;
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid lightgrey;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+tr:hover {
+    background-color: #fafafa;
+}
+
+a {
+    display: inline-block;
+    margin: 1rem;
+    color: #0070d2;
 }
